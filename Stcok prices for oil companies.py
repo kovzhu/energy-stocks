@@ -4,7 +4,7 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 from pandas_datareader import data as pdr
 
-token = 'ff0abe11ff60a8ab965180971559c539d552c0e51de7e501593ff762'
+token = 'your token for tushare'
 ts.set_token(token)
 pro = ts.pro_api()
 
