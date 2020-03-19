@@ -3,15 +3,16 @@ import pandas as pd
 import yfinance as yf
 import matplotlib.pyplot as plt
 from pandas_datareader import data as pdr
+# from io import BytesIO
 
 
 def main():
 
-    OilCompanies = {'CNOOC': '00883.hk',
-                    'Yanchang': '00346.hk',
-                    'CNPC': '00857.hk',
-                    'Sinopec': '00386.hk'
-                    }
+    HKOilCompanies = {'CNOOC': '00883.hk',
+                      'Yanchang': '00346.hk',
+                      'CNPC': '00857.hk',
+                      'Sinopec': '00386.hk'
+                      }
 
     IOCs = {
         # 'Shell': 'RDS.A',
@@ -24,32 +25,23 @@ def main():
         'Devon': 'DVN',
         'Chesapeake': 'CHK',
     }
-    StartDateCN = '20100101'
+
+    OFS = {'Sinopec OFS': '600871.SH', 'COOEC': '600583.SH', 'COSL': '601808.SH', 'Zhudong': '002207.SZ', 'Hengtai': '300157.SZ',
+           'Tongyuan': '300164.SZ', 'HBP': '002554.SZ', 'Renzhi': '002629.SZ', 'Beken': '002828.SZ', 'Zhongman': '603619.SH'}
+
+    StartDateCN = '20200101'
     EndDateCN = '20200317'
 
     StartDateIOC = "2020-01-01"
     EndDateIOC = "2020-03-17"
 
-    df1 = CNData(OilCompanies, StartDateCN, EndDateCN)
-    StockChanges(df1)
-    df2 = IOCData(IOCs, StartDateIOC, EndDateIOC)
+    # df1 = HKData(HKOilCompanies, StartDateCN, EndDateCN)
+    df2 = CNData(OFS, StartDateCN, EndDateCN)
+    StockChanges(df2)
 
-    ToExcel(df1, df2)
+    # df2 = IOCData(IOCs, StartDateIOC, EndDateIOC)
 
-# Write each dataframe into a tab of excel
-# with pd.ExcelWriter('oil companies stocks.xlsx') as writer:
-#     for key in OilCompanies:
-#         df = pd.DataFrame(pro.hk_daily(ts_code=OilCompanies[key], start_date='20200101',
-#                                        end_date='20200317'))
-#         df['Company'] = key
-#         df.to_excel(writer, sheet_name=key)
-#     for key in IOCs:
-#         data = pd.DataFrame(pdr.get_data_yahoo(
-#             IOCs[key], start="2020-01-01", end="2020-03-17"))
-#         data['Company'] = key
-#         data.to_excel(writer, sheet_name=key)
-
-# Combine the dataframes and write into a single tab
+    # ToExcel(df1, df2)
 
 
 def ToExcel(df1, df2):
@@ -69,14 +61,32 @@ def IOCData(IOCs, StartDateIOC, EndDateIOC):
     return data1
 
 
-def CNData(OilCompanies, startdate, enddate):
-    token = 'your tushare token'
+def HKData(OilCompanies, startdate, enddate):
+    token = 'ff0abe11ff60a8ab965180971559c539d552c0e51de7e501593ff762'
     ts.set_token(token)
     pro = ts.pro_api()
     df1 = pd.DataFrame()
     for key in OilCompanies:
         df = pd.DataFrame(pro.hk_daily(ts_code=OilCompanies[key], start_date=startdate,
                                        end_date=enddate))
+        df['Company'] = key
+        df1 = pd.DataFrame.append(df1, df)
+
+    df1['Year'] = df1['trade_date'].str[0:4].apply(int)
+    df1['Month'] = df1['trade_date'].str[4:6].apply(int)
+    df1['Day'] = df1['trade_date'].str[6:8].apply(int)
+    df1['Date'] = df1['trade_date'].apply(pd.to_datetime)
+    return df1
+
+
+def CNData(OilCompanies, startdate, enddate):
+    token = 'ff0abe11ff60a8ab965180971559c539d552c0e51de7e501593ff762'
+    ts.set_token(token)
+    pro = ts.pro_api()
+    df1 = pd.DataFrame()
+    for key in OilCompanies:
+        df = pd.DataFrame(pro.daily(ts_code=OilCompanies[key], start_date=startdate,
+                                    end_date=enddate))
         df['Company'] = key
         df1 = pd.DataFrame.append(df1, df)
 
@@ -98,7 +108,18 @@ def StockChanges(df1):
         pivot3.iloc[row] = (pivot2.iloc[row] - base)/base
     pivot3.iloc[0] = 0
     plt.plot(pivot3)
+    labels = pivot3.columns
+    plt.legend(labels=labels, loc='best')
+    # imgdata = BytesIO()
     plt.savefig('stocks.png')
+    # plt.savefig(imgdata, format="png")
+    # return imgdata
+
+# with pd.ExcelWriter('test.xlsx') as writer:
+#     df1.to_excel(writer, sheet_name='date')
+#     Pivot.to_excel(writer, sheet_name='pivot')
+
+# df1.to_excel('stock test2.xlsx')
 
 
 if __name__ == '__main__':
