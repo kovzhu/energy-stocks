@@ -1,1 +1,213 @@
+Mark,Code,Name
+E&P,AAV,Advantage Oil & Gas Ltd.
+E&P,AE,"Adams Resources & Energy, Inc."
+E&P,AMPY,Amplify Energy Corp.
+E&P,AMZG,American Eagle Energy Corporation
+E&P,APA,Apache Corporation
+E&P,APAGF,Apco Oil And Gas International Inc.
+E&P,AR,Antero Resources Corporation
+E&P,AREX,Approach Resources Inc.
+E&P,ARG,"Airgas, Inc."
+E&P,ARP,"Atlas Resource Partners, L.P."
+E&P,AST,"Asterias Biotherapeutics, Inc."
+E&P,ATHL,Athlon Energy Inc.
+E&P,ATLS,"Atlas Energy Group, Llc"
+E&P,AXAS,Abraxas Petroleum Corporation
+E&P,BBEP,Breitburn Energy Partners Lp
+E&P,BBG,Bill Barrett Corporation
+E&P,BCEI,"Bonanza Creek Energy, Inc."
+E&P,BPMP,Bp Midstream Partners Lp
+E&P,BPZ,"Bpz Resources, Inc."
+E&P,BRE,"Bre Properties, Inc."
+E&P,BRN,"Barnwell Industries, Inc."
+E&P,CAB,Cabela'S Incorporated
+E&P,CDEV,"Centennial Resource Development, Inc."
+E&P,CEI,"Camber Energy, Inc."
+E&P,CEO,Cnooc Limited
+E&P,CHAP,"Chaparral Energy, Inc."
+E&P,CHK,Chesapeake Energy Corporation
+E&P,CHKR,Chesapeake Granite Wash Trust
+E&P,CIE,"Cobalt International Energy, Inc."
+E&P,CLR,"Continental Resources, Inc."
+E&P,CNQ,Canadian Natural Resources Limited
+E&P,COP,Conocophillips
+E&P,CPE,Callon Petroleum Company
+E&P,CRK,"Comstock Resources, Inc."
+E&P,CRZO,"Carrizo Oil & Gas, Inc."
+E&P,CVEO,Civeo Corporation
+E&P,CVIA,Covia Holdings Corporation
+E&P,CVX,Chevron Corporation
+E&P,CWEI,"Clayton Williams Energy, Inc."
+E&P,CXO,Concho Resources Inc.
+E&P,CXPO,Crimson Exploration Inc.
+E&P,DAKP,"Dakota Plains Holdings, Inc."
+E&P,DMLP,"Dorchester Minerals, L.P."
+E&P,DNR,Denbury Resources Inc.
+E&P,DVN,Devon Energy Corporation
+E&P,DXI,Dxi Energy Inc.
+E&P,E,Eni Spa
+E&P,EC,Ecopetrol S.A.
+E&P,ECA,Encana Corporation
+E&P,ECHO,"Echo Global Logistics, Inc."
+E&P,EDR,"Endeavor Group Holdings, Inc."
+E&P,EGC,"Energy Xxi Gulf Coast, Inc."
+E&P,EGN,Energen Corporation
+E&P,EGY,"Vaalco Energy, Inc."
+E&P,EHR,"Energy Hunter Resources, Inc."
+E&P,ELA,Envela Corporation
+E&P,EME,"Emcor Group, Inc."
+E&P,END,Endeavour International Corporation
+E&P,ENSV,Enservco Corporation
+E&P,EOG,"Eog Resources, Inc."
+E&P,EOX,"Emerald Oil, Inc."
+E&P,EPE,Ep Energy Corporation
+E&P,EPL,"Epl Oil & Gas, Inc."
+E&P,EPM,Evolution Petroleum Corporation
+E&P,EPSN,Epsilon Energy Ltd.
+E&P,EQNR,Equinor Asa
+E&P,EQU,Equal Energy Ltd.
+E&P,ERF,Enerplus Corporation
+E&P,ERN,Erin Energy Corporation
+E&P,EROC,"Eagle Rock Energy Partners, L.P."
+E&P,ESCR,Escalera Resources Co.
+E&P,ESTE,"Earthstone Energy, Inc."
+E&P,EVEP,"Ev Energy Partners, L.P."
+E&P,FANG,"Diamondback Energy, Inc."
+E&P,FLMN,Falcon Minerals Corporation
+E&P,FXEN,"Fx Energy, Inc."
+E&P,GBR,"New Concept Energy, Inc."
+E&P,GGR,Geoglobal Resources Inc.
+E&P,GLF,"Gulfmark Offshore, Inc."
+E&P,GMET,"Geomet, Inc."
+E&P,GMXR,Gmx Resources Inc.
+E&P,GPR,Geopetro Resources Company
+E&P,GPRK,Geopark Limited
+E&P,GTE,Gran Tierra Energy Inc.
+E&P,GULTU,Ultra Deep Royalty
+E&P,HDY,Hyperdynamics Corporation
+E&P,HES,Hess Corporation
+E&P,HNR,"Harvest Natural Resources, Inc."
+E&P,HOS,"Hornbeck Offshore Services, Inc."
+E&P,HPR,Highpoint Resources Corporation
+E&P,HUSA,Houston American Energy Corp.
+E&P,IOC,Interoil Corporation
+E&P,IVAN,Ivanhoe Energy Inc.
+E&P,JAG,Jagged Peak Energy Inc.
+E&P,JONE,"Jones Energy, Inc."
+E&P,JPEP,Jp Energy Partners Lp
+E&P,KOG,Kodiak Oil & Gas Corp.
+E&P,KOS,Kosmos Energy Ltd.
+E&P,KRP,"Kimbell Royalty Partners, Lp"
+E&P,KWK,Quicksilver Resources Inc.
+E&P,LINE,"Roan Resources,  Inc."
+E&P,LLEX,"Lilis Energy, Inc."
+E&P,LNCO,"Linnco, Llc"
+E&P,LONE,Lonestar Resources Us Inc.
+E&P,LPI,"Laredo Petroleum, Inc."
+E&P,MCEP,"Mid-Con Energy Partners, Lp"
+E&P,MCF,Contango Oil & Gas Company
+E&P,MEMP,Memorial Production Partners Lp
+E&P,MILL,"Miller Energy Resources, Inc."
+E&P,MMLP,Martin Midstream Partners L.P.
+E&P,MMR,Mcmoran Exploration Co.
+E&P,MNRL,"Brigham Minerals, Inc."
+E&P,MPC,Marathon Petroleum Corporation
+E&P,MR,Montage Resources Corporation
+E&P,MRD,Memorial Resource Development Corp.
+E&P,MTDR,Matador Resources Company
+E&P,MXC,Mexco Energy Corporation
+E&P,NBL,"Noble Energy, Inc."
+E&P,NESR,National Energy Services Reunited Corp.
+E&P,NGLS,Targa Resources Partners Lp
+E&P,NOG,"Northern Oil And Gas, Inc."
+E&P,NSLP,New Source Energy Partners L.P.
+E&P,NXY,Nexen Inc.
+E&P,OAS,Oasis Petroleum Inc.
+E&P,OBE,Obsidian Energy Ltd.
+E&P,OMP,Oasis Midstream Partners Lp
+E&P,OXY,Occidental Petroleum Corporation
+E&P,PBR,Brazilian Petroleum Corporation—Petrobras
+E&P,PDCE,"Pdc Energy, Inc."
+E&P,PE,"Parsley Energy, Inc."
+E&P,PED,Pedevco Corp.
+E&P,PER,Sandridge Permian Trust
+E&P,PGR,The Progressive Corporation
+E&P,PHX,Panhandle Oil And Gas Inc.
+E&P,PPC,Pilgrim'S Pride Corporation
+E&P,PPP,Primero Mining Corp.
+E&P,PQ,"Petroquest Energy, Inc."
+E&P,PRHR,Petroshare Corp.
+E&P,PRT,Permrock Royalty Trust
+E&P,PSE,Pioneer Southwest Energy Partners L.P.
+E&P,PSTR,Postrock Energy Corporation
+E&P,PTR,Petrochina Company Limited
+E&P,PUMP,Propetro Holding Corp.
+E&P,PVA,Penn Virginia Corporation
+E&P,PVAC,Penn Virginia Corporation
+E&P,PVR,"Pvr Partners, L.P."
+E&P,PXD,Pioneer Natural Resources Company
+E&P,PXP,Plains Exploration & Production Company
+E&P,PZE,Petrobras Argentina S.A.
+E&P,QBC,"Cubic Energy, Inc."
+E&P,QEP,"Qep Resources, Inc."
+E&P,QRE,"Qr Energy, Lp"
+E&P,RDS.A,Royal Dutch Shell Plc
+E&P,RDS.B,Royal Dutch Shell Plc
+E&P,REI,"Ring Energy, Inc."
+E&P,REN,Resolute Energy Corporation
+E&P,REPX,"Riley Exploration Permian, Inc."
+E&P,REXX,Rex Energy Corporation
+E&P,RICE,Rice Energy Inc.
+E&P,RMP,Rice Midstream Partners Lp
+E&P,ROAN,"Roan Resources, Inc."
+E&P,RPT,Rpt Realty
+E&P,RRC,Range Resources Corporation
+E&P,RSPP,"Rsp Permian, Inc."
+E&P,RTLR,Rattler Midstream Lp
+E&P,SARA,"Saratoga Resources, Inc."
+E&P,SBOW,"Silverbow Resources, Inc."
+E&P,SBR,Sabine Royalty Trust
+E&P,SD,"Sandridge Energy, Inc."
+E&P,SGY,Stone Energy Corporation
+E&P,SLB,Schlumberger N.V.
+E&P,SM,Sm Energy Company
+E&P,SN,Sanchez Energy Corporation
+E&P,SNDE,Sundance Energy Australia Limited
+E&P,SNMP,Sanchez Midstream Partners Lp
+E&P,SOLO,Electrameccanica Vehicles Corp.
+E&P,SOQ,Sonde Resources Corp.
+E&P,SRCI,Src Energy Inc.
+E&P,SSN,Samson Oil & Gas Limited
+E&P,SU,Suncor Energy Inc.
+E&P,SWN,Southwestern Energy Company
+E&P,SWX,"Southwest Gas Holdings, Inc."
+E&P,SXCL,Steel Excel Inc.
+E&P,TELL,Tellurian Inc.
+E&P,TGA,Transglobe Energy Corporation
+E&P,TGC,"Tengasco, Inc."
+E&P,TGS,Gas Transporter Of The South Inc.
+E&P,TLM,Talisman Energy Inc.
+E&P,TPLM,Triangle Petroleum Corporation
+E&P,TRP,Tc Energy Corporation
+E&P,UAVS,Ageagle Aerial Systems Inc.
+E&P,USEG,U.S. Energy Corp.
+E&P,VET,Vermilion Energy Inc.
+E&P,VNOM,Viper Energy Partners Lp
+E&P,VNR,"Vanguard Natural Resources, Llc"
+E&P,WEN,The Wendy'S Company
+E&P,WES,"Western Midstream Partners, Lp"
+E&P,WHX,Whiting Usa Trust I
+E&P,WLL,Whiting Petroleum Corporation
+E&P,WPX,"Wpx Energy, Inc."
+E&P,WRD,Wildhorse Resource Development Corporation
+E&P,WTI,"W&T Offshore, Inc."
+E&P,XCO,"Exco Resources, Inc."
+E&P,XEC,Cimarex Energy Co.
+E&P,XOG,"Extraction Oil & Gas, Inc."
+E&P,XOM,Exxon Mobil Corporation
+E&P,XPL,Solitario Zinc Corp.
+E&P,YUMA,"Yuma Energy, Inc."
+E&P,ZAZA,Zaza Energy Corporation
+E&P,ZEN,"Zendesk, Inc."
+E&P,ZN,"Zion Oil & Gas, Inc."
 
