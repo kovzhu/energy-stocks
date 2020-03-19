@@ -62,7 +62,7 @@ def IOCData(IOCs, StartDateIOC, EndDateIOC):
 
 
 def HKData(OilCompanies, startdate, enddate):
-    token = 'ff0abe11ff60a8ab965180971559c539d552c0e51de7e501593ff762'
+    token = 'Your Tushare token'
     ts.set_token(token)
     pro = ts.pro_api()
     df1 = pd.DataFrame()
