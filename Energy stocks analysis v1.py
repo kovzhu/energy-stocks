@@ -245,3 +245,6 @@ yahoo_energy_company_list = {
  'Höegh LNG Partners LP': 'HMLP-PA'}
 
 
+Energy_company_stock_data = generate_combined_data(yahoo_energy_company_list)
+Energy_company_stock_data.to_excel('Energy stock prices on Dec 10th 2021.xlsx')
+
