@@ -39,7 +39,7 @@ def get_company_lists():
     The function fetches the list of companies and their tickers stored in Excel
     '''
 
-    list_folder = r'C:\Users\Kunfeng.Zhu\OneDrive - IHS Markit\00_Upstream Transformation\03_Companies\Sentiment\SP 500 list.xlsx'
+    list_folder = r'C:\Users\xxx\SP 500 list.xlsx'
     sp500_companies_table = pd.read_excel(list_folder,sheet_name='sp 500 list',header=4,usecols="B:J")
     sp_sectors_table = pd.read_excel(list_folder,sheet_name='sp sector',header=7,usecols="C:H")
     yahoo_finance_energy_companies = pd.read_excel(list_folder,sheet_name='Yh finance energy', header=6, usecols="C:D")
